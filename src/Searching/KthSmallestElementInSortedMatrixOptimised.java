@@ -6,6 +6,7 @@ public class KthSmallestElementInSortedMatrixOptimised {
 TC: O(n*log(max-min))
 SC: O(1)
 */
+
     class Solution {
         public int kthSmallest(int[][] matrix, int k) {
             int n = matrix.length;
