@@ -1,6 +1,7 @@
 package Sorting;
 
 import java.util.List;
+import java.util.*;
 
 public class CountOfSmallerNumbersAfterSelf {
 
