@@ -1,7 +1,7 @@
 package Sorting;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 /*
 https://www.geeksforgeeks.org/sum-manhattan-distances-pairs-points/
 TC: O(nlogn) - Due to sorting the array
@@ -9,7 +9,6 @@ SC: O(1)
  */
 public class ManhattanDistancePairSum {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int[] x = { -1, 1, 3, 2 };
         int[] y = { 5, 6, 5, 3 };
         int n = x.length;
